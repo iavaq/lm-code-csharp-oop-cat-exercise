@@ -6,10 +6,8 @@ namespace OopCatExercise.Models
 {
     public class LionCat : Cat
     {
-        public LionCat() : base()
+        public LionCat() : base(1100, "wild")
         {
-            AverageHeight = 1100;
-            //Setting = CatEnums.Setting.wild;
         }
 
         public override string Eat()

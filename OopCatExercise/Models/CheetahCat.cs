@@ -6,10 +6,8 @@ namespace OopCatExercise.Models
 {
     public class CheetahCat : Cat
     {
-        public CheetahCat() : base()
+        public CheetahCat() : base(1000, "wild")
         {
-            //AvergeHeight = ;
-            //Setting = CatEnums.Setting.wild;
         }
 
         public override string Eat()

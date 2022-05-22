@@ -6,10 +6,8 @@ namespace OopCatExercise.Models
 {
     public class DomesticCat : Cat
     {
-        public DomesticCat() : base()
+        public DomesticCat() : base(23, "domestic")
         {
-            AverageHeight = 23;
-            Setting = "domestic";
         }
 
         public override string Eat()
