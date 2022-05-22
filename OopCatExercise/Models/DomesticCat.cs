@@ -12,6 +12,13 @@ namespace OopCatExercise.Models
 
         public override string Eat()
         {
+            Random randomize = new Random();
+
+            if (randomize.Next(2).Equals(1))
+            {
+                Console.WriteLine("It will do I suppose");
+            }
+    
             return "Purrrrrrr";
         }
     }
